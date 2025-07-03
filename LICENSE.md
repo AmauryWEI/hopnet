@@ -1,17 +1,15 @@
-# License Agreement
+# License
 
-This code is provided solely for the purpose of review in relation to the journal
-publication titled "Physics meets Topology: Physics-informed topological neural networks
-for learning rigid body dynamics" and may not be shared, distributed, or reproduced
-without explicit permission from the authors.
+**Copyright (c) 2024 [Amaury WEI]**
 
-By accessing this code, you agree to the following terms:
+This software is licensed for **non-commercial use only**.
 
-1. **Limited Use**: The code is to be used only for review purposes related to the aforementioned publication. Any other use is prohibited.
-2. **No Redistribution**: You may not share, distribute, or post this code, in part or in whole, to any third party without the prior written consent of the author.
-3. **No Modification**: The code may not be modified, adapted, or reverse-engineered without the author's explicit permission.
-4. **Confidentiality**: The code and any associated documentation are confidential and should not be disclosed to any individuals or organizations not involved in the review process.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, and distribute the Software for **non-commercial research and educational purposes**, provided that the above copyright notice and this permission notice appear in all copies or substantial portions of the Software.
 
-If you have any questions or requests for further use of the code, please contact the author at <amaury.wei@epfl.ch>.
+**Commercial use of this software, in whole or in part, is strictly prohibited** without prior written permission from the authors.
 
-By using this code, you acknowledge and agree to abide by these terms.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+---
+
+**Note:** The folder `fignet/` is subject to its own license and is **not covered** by the terms above. Please refer to `fignet/LICENSE` for details.
