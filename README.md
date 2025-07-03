@@ -14,7 +14,7 @@ publicly available on GitHub after acceptance.
     - [2.1. Docker Image (x86\_64 only, no ARM64)](#21-docker-image-x86_64-only-no-arm64)
     - [2.2. Manual Setup](#22-manual-setup)
   - [3. Getting Started](#3-getting-started)
-    - [3.1. Generating a Dataset (*optional*)](#31-generating-a-dataset-optional)
+    - [3.1. Downloading or Generating a Dataset (*optional*)](#31-downloading-or-generating-a-dataset-optional)
     - [3.2. Preprocessing the Data (*training only*)](#32-preprocessing-the-data-training-only)
     - [3.3. Computing Normalization Parameters (*optional*)](#33-computing-normalization-parameters-optional)
     - [3.4. Training a Model (*optional*)](#34-training-a-model-optional)
@@ -155,10 +155,13 @@ If you directly want to compute results and generate rollout trajectories, you c
 directly to section [Inferring a Model](#35-inferring-a-model) and
 [Generating Rollout Trajectories](#36-visualizing-rollout-trajectories).
 
-### 3.1. Generating a Dataset (*optional*)
+### 3.1. Downloading or Generating a Dataset (*optional*)
 
 This repository includes 10 samples of each dataset `MOVi-spheres`, `MOVi-A`, and
-`MOVi-B`. To generate the complete datasets with 1'200 samples each, build the
+`MOVi-B`. You can download the complete datasets in the Zenodo database under 
+accession code https://doi.org/10.5281/zenodo.15800434.
+
+To generate the complete datasets with 1'200 samples each from scratch, build the
 [Kubric](https://github.com/AmauryWEI/kubric) Docker image and generate additional
 samples with the custom script `/data/generate_movi_dataset.py`.
 
