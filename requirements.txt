@@ -1,0 +1,20 @@
+numpy==1.26.4
+
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.4.1
+torchvision==0.19.1
+
+rtree==1.3.0
+trimesh==4.6.10
+scipy==1.15.3
+plotly==5.24.1
+kaleido==0.2.1 # For windows, use 0.1.0.post1
+tensorboard==2.19.0
+black==24.10.0
+wandb==0.18.6
+tqdm==4.67.1
+ipympl==0.9.4
+ipywidgets==8.1.5
+matplotlib==3.10.3
+pandas==2.2.2
+requests==2.32.3

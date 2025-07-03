@@ -1,0 +1,46 @@
+# Training params
+use_cuda: true
+batch_size: 64
+num_workers: 8
+lr_init: 1.0e-3
+lr_decay_rate: 0.1
+lr_decay_steps: 1.0e+6
+training_steps: 1.0e+6
+warmup_steps: 60
+seed: 42
+online: False
+
+# Evaluation
+loss_report_step: 2000
+log_grad: False
+log_grad_step: 10000
+save_model_step: 2000
+eval_step: 1000 # 7140 = every epoch with batch_size=64
+rollout_steps: 50
+run_validate: true
+num_eval_rollout: 20
+save_video: true
+
+# Dataset
+dataset_type: "Movi"
+data_path: "/Users/awei/Developer/Datasets/MOVi-spheres"
+test_data_path: "/Users/awei/Developer/Datasets/MOVi-spheres"
+data_config:
+  noise_std: 0.00
+  connectivity_radius: 0.10
+  input_seq_length: 3
+
+# Logging
+logging_folder: "./log/movis"
+log_level: "info"
+
+# continue_log_from: "2024-08-29-17:05"
+# Resume training
+# model_file: "log/sim-pc/models/weights_itr_482000.ckpt"
+# train_state_file: "log/sim-pc/models/train_state_itr_482000.ckpt"
+
+# Simulator params
+leave_out_mm: True
+latent_dim: 128
+message_passing_steps: 10
+mlp_layers: 2
