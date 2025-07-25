@@ -1,13 +1,15 @@
-# Higher-Order Physics-informed topological Network (HOPNet)
+# Integrating physics and topology in neural networks for learning rigid body dynamics
 
-This repo contains the code used to develop `HOPNet`, part of the publication titled
-"Physics meets Topology: Physics-informed topological neural networks for learning
-rigid body dynamics". An improved version with proper Python packaging will be made
-publicly available on GitHub after acceptance.
+This repository contains the code used to develop `HOPNet`, part of the publication 
+titled "Integrating physics and topology in neural networks for learning rigid body dynamics".
+
+This work was published in Nature Communications 16, Article number 6867 (2025). Read
+the full article here: https://doi.org/10.1038/s41467-025-62250-7. BibTeX reference 
+[below](#7-bibtex-reference).
 
 ## 0. Table of Contents
 
-- [Higher-Order Physics-informed topological Network (HOPNet)](#higher-order-physics-informed-topological-network-hopnet)
+- [Integrating physics and topology in neural networks for learning rigid body dynamics](#integrating-physics-and-topology-in-neural-networks-for-learning-rigid-body-dynamics)
   - [0. Table of Contents](#0-table-of-contents)
   - [1. System Requirements](#1-system-requirements)
   - [2. Setup](#2-setup)
@@ -28,6 +30,7 @@ publicly available on GitHub after acceptance.
     - [6.3 FIGNet model training (optional)](#63-fignet-model-training-optional)
     - [6.4 FIGNet model inference](#64-fignet-model-inference)
     - [6.5 FIGNet errors computation](#65-fignet-errors-computation)
+  - [7. BibTeX reference](#7-bibtex-reference)
 
 ## 1. System Requirements
 
@@ -399,4 +402,23 @@ codebase as follows:
 ```bash
 cd .. # Go back to the root of the repository
 python scripts/main.py <YOUR_MOVI_DATASET_ROOT_DIRECTORY> --log_dir <ROLLOUT_DIRECTORY> --errors
+```
+
+## 7. BibTeX reference
+
+```
+@Article{Wei2025,
+  author={Wei, Amaury and Fink, Olga},
+  title={Integrating physics and topology in neural networks for learning rigid body dynamics},
+  journal={Nature Communications},
+  year={2025},
+  month={Jul},
+  day={25},
+  volume={16},
+  number={1},
+  pages={6867},
+  issn={2041-1723},
+  doi={10.1038/s41467-025-62250-7},
+  url={https://doi.org/10.1038/s41467-025-62250-7}
+}
 ```
